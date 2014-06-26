@@ -20,6 +20,8 @@ Instead of providing a M2X library for Groovy, we decided to take advantage of t
 
 There're 2 ways to run the examples: if you are using [IntelliJ IDEA](http://www.jetbrains.com/idea/), you can launch the script right in the IDE; otherwise, you can still run the examples under command line. In either case, [Maven](http://maven.apache.org/) must also be installed. We will explain how to run the examples in both ways below.
 
+For more details on using the M2X Java client, please refer to its [README file](https://github.com/attm2x/m2x-java/blob/master/README.md).
+
 How to Run Examples in IntelliJ IDEA
 ====================================
 
