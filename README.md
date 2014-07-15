@@ -16,7 +16,9 @@ Getting Started
 3. Review the [M2X API Documentation](https://m2x.att.com/developer/documentation/overview).
 5. Review the M2X [Java client documentation](https://github.com/attm2x/m2x-java/blob/master/README.md).
 
+## Example Usage
 
+In order to be able to use these Groovy script examples, you will need an [AT&T M2X](https://m2x.att.com/) API key and a Data Source Feed ID. If you don't have an API key, create an account and, once registered and with your account activated, create a new [Data Source Blueprint](https://m2x.att.com/blueprints), and copy the `Feed ID` and `API Key` values. 
 
 Leveraging the M2X Java library
 =======================
@@ -87,3 +89,7 @@ E. Use the following command to launch the Groovy script:
 ```
 
    Remember to fill in the jar file path obtained in Step C. You might also want to adjust the script first to fill in the correct key, feed ID, stream name, etc.
+
+## License
+
+These examples are provided under the MIT license. See [LICENSE](LICENSE) for applicable terms.
