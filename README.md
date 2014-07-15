@@ -26,8 +26,16 @@ Because [Groovy](http://groovy.codehaus.org) scripts can call Java code freely, 
 
 For more detail on using the M2X Java client library, please refer to its [README file](https://github.com/attm2x/m2x-java/blob/master/README.md).
 
-Prerequisites
+Requirements and Dependencies
 =======================
+There ar five primary dependencies, which are explained in greater detail below:
+
+1. Install Groovy
+2. Install the Java Development Kit (JDK)
+3. Install [Maven]((http://maven.apache.org/download.cgi#Installation))
+4. Download the [M2X Java Client library](https://github.com/attm2x/m2x-java)
+5. Download the [M2X example Groovy scripts](https://github.com/attm2x/m2x-groovy)
+
 To run the example scripts, both Groovy and the JDK (Java Development Kit) must be installed on your system. Please refer to the documentation for [Groovy](http://groovy.codehaus.org/Installing+Groovy) and [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) for instructions. You should also download the [M2X Java client library](https://github.com/attm2x/m2x-java).
 
 There are two ways to run the example scripts:
