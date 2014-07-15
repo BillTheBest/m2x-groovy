@@ -4,7 +4,7 @@ Groovy Script Examples for M2X
 The AT&T M2X API provides all the needed operations to connect your device to AT&T's [M2X](http://m2x.att.com) service. 
 This repository provides an easy to use set of [Groovy script examples](https://github.com/attm2x/m2x-groovy/tree/master/src/main/groovy/com/att/m2x/client/examples) that enable you to use [Groovy](http://groovy.codehaus.org) script with the [M2X Java client library](https://github.com/attm2x/m2x-java).
 
-In order to use these Groovy script examples, please consult the M2X [Java client documentation](https://github.com/attm2x/m2x-java/blob/master/README.md). Refer to the M2X [Glossary of Terms](https://m2x.att.com/developer/documentation/glossary) to understand the nomenclature used throughout this documentation.
+In order to learn more about the APIs used in the Groovy Script examples, please consult the M2X [Java client documentation](https://github.com/attm2x/m2x-java/blob/master/README.md). Refer to the M2X [Glossary of Terms](https://m2x.att.com/developer/documentation/glossary) to understand the nomenclature used throughout this documentation.
 
 
 
@@ -25,7 +25,15 @@ Leveraging the M2X Java library
 
 Because [Groovy](http://groovy.codehaus.org) scripts can call Java code freely, these [Groovy script examples](https://github.com/attm2x/m2x-groovy/tree/master/src/main/groovy/com/att/m2x/client/examples) rely on the [M2X Java client library](https://github.com/attm2x/m2x-java). As a result, this repository only contains Groovy examples that connect to M2X using the Java client library.
 
-There are two ways to run the examples: if you are using [IntelliJ IDEA](http://www.jetbrains.com/idea/), you can launch the script right in the IDE; otherwise, you can run the examples in the command line. In either case, [Maven](http://maven.apache.org/) must also be installed. We will explain how to run the examples in both ways below.
+To run the scripts, Groovy and JDK(Java Development Kit) must be installed on your system. Please refer to the documentation of [Groovy](http://groovy.codehaus.org/Installing+Groovy) and [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) for details on this.
+
+There are two ways to run the examples:
+
+1) The examples are developeed [IntelliJ IDEA](http://www.jetbrains.com/idea/), a full-featured Java/Groovy IDE. If you also use IntelliJ IDEA, you can launch the scripts right in the IDE. The steps for running those scripts in IntelliJ IDEA are listed below.
+
+2) If you use other editors, you can run the examples in the command line environment. The steps in this case are also listed below.
+
+In addition, [Maven](http://maven.apache.org/) must be installed. Maven is a Java project and dependency management tool. While Groovy scripts can run outside of the Maven environment, the Java client library is organized using Maven. We will use Maven to fetch dependencies for the Groovy scripts. To install Maven, please refer to the official [documentation](http://maven.apache.org/download.cgi#Installation).
 
 For more detail on using the M2X Java client library, please refer to its [README file](https://github.com/attm2x/m2x-java/blob/master/README.md).
 
