@@ -4,7 +4,8 @@ Groovy Script Examples for M2X
 The AT&T M2X API provides all the needed operations to connect your device to AT&T's [M2X](http://m2x.att.com) service. 
 This repository provides an easy to use set of [Groovy script examples](https://github.com/attm2x/m2x-groovy/tree/master/src/main/groovy/com/att/m2x/client/examples) that enable you to use [Groovy](http://groovy.codehaus.org) script with the [M2X Java client library](https://github.com/attm2x/m2x-java).
 
-In order to use these Groovy script examples, please consult the M2X [Java client documentation](https://github.com/attm2x/m2x-java/blob/master/README.md).
+In order to use these Groovy script examples, please consult the M2X [Java client documentation](https://github.com/attm2x/m2x-java/blob/master/README.md). Refer to the M2X [Glossary of Terms](https://m2x.att.com/developer/documentation/glossary) to understand the nomenclature used throughout this documentation.
+
 
 
 Getting Started
