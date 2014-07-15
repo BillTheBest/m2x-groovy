@@ -1,4 +1,4 @@
-Groovy Script Examples for the M2X API
+Groovy Script Examples for M2X
 ========================
 
 The AT&T M2X API provides all the needed operations to connect your device to AT&T's [M2X](http://m2x.att.com) service. 
