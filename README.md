@@ -100,6 +100,7 @@ E. Use the following command to launch the Groovy script:
 
    Remember to fill in the jar file path obtained in Step C. You might also want to adjust the script first to fill in the correct key, feed ID, stream name, etc.
 
-## License
+License
+==========================
 
 These examples are provided under the MIT license. See [LICENSE](LICENSE) for applicable terms.
