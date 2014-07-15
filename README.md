@@ -30,8 +30,8 @@ Requirements and Dependencies
 =======================
 There ar five primary dependencies, which are explained in greater detail below:
 
-1. Install Groovy
-2. Install the Java Development Kit (JDK)
+1. [Install Groovy](http://groovy.codehaus.org/Installing+Groovy)
+2. [Install the Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 3. Install [Maven]((http://maven.apache.org/download.cgi#Installation))
 4. Download the [M2X Java Client library](https://github.com/attm2x/m2x-java)
 5. Download the [M2X example Groovy scripts](https://github.com/attm2x/m2x-groovy)
