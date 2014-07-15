@@ -18,7 +18,7 @@ Getting Started
 
 ## Example Usage
 
-In order to be able to use these Groovy script examples, you will need an [AT&T M2X](https://m2x.att.com/) API key and a Data Source Feed ID. If you don't have an API key, create an account and, once registered and with your account activated, create a new [Data Source Blueprint](https://m2x.att.com/blueprints), and copy the `Feed ID` and `API Key` values. 
+In order to be able to use these Groovy script examples, you will need an [AT&T M2X](https://m2x.att.com/) API key and a Data Source Feed ID. If you don't have an API key, create an account and, once registered and with your account activated, create a new [Data Source Blueprint](https://m2x.att.com/blueprints), and set aside the `Feed ID` and `API Key` values for later use. 
 
 Leveraging the M2X Java library
 =======================
