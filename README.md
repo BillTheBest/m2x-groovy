@@ -28,7 +28,7 @@ For more detail on using the M2X Java client library, please refer to its [READM
 
 Requirements and Dependencies
 =======================
-There ar five primary dependencies, which are explained in greater detail below:
+There are five primary dependencies, which are explained in greater detail below:
 
 1. [Install Groovy](http://groovy.codehaus.org/Installing+Groovy)
 2. [Install the Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
