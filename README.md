@@ -75,10 +75,10 @@ E. Right click on `pom.xml` file, select `Maven`, `Reimport`.
 
 F. Open the Groovy script file you want to run. Replace the following parts(if exist) with correct values:
 
-   `<key>`: Your M2X API key
-   `<feed id>`: ID of feed to push
-   `<stream name>`: Name of stream to push
-   `<value to push>`: Value to push
+    `<key>`: Your M2X API key
+    `<feed id>`: ID of feed to push
+    `<stream name>`: Name of stream to push
+    `<value to push>`: Value to push
 
 G. Right-click it and select `Run`. However, you might want to change the source to use the correct key, etc., first.
 
@@ -108,10 +108,10 @@ D. Clone the [m2x-groovy](https://github.com/attm2x/m2x-groovy) examples:
 
 E. Open the Groovy script file you want to run. Replace the following parts(if exist) with correct values:
 
-   `<key>`: Your M2X API key
-   `<feed id>`: ID of feed to push
-   `<stream name>`: Name of stream to push
-   `<value to push>`: Value to push
+    `<key>`: Your M2X API key
+    `<feed id>`: ID of feed to push
+    `<stream name>`: Name of stream to push
+    `<value to push>`: Value to push
 
 F. Use the following command to launch the Groovy script(suppose the script you want to run is `push_data.groovy`):
 
