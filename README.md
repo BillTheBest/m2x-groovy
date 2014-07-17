@@ -73,7 +73,14 @@ D. Launch IntelliJ, open the `m2x-groovy` project.
 
 E. Right click on `pom.xml` file, select `Maven`, `Reimport`.
 
-F. Now you can select the Groovy script file in the project. Right-click it and select `Run`. However, you might want to change the source to use the correct key, etc., first.
+F. Open the Groovy script file you want to run. Replace the following parts(if exist) with correct values:
+
+   `<key>`: Your M2X API key
+   `<feed id>`: ID of feed to push
+   `<stream name>`: Name of stream to push
+   `<value to push>`: Value to push
+
+G. Right-click it and select `Run`. However, you might want to change the source to use the correct key, etc., first.
 
 How to Run Examples in the Command Line
 ===================================
@@ -99,7 +106,14 @@ D. Clone the [m2x-groovy](https://github.com/attm2x/m2x-groovy) examples:
    $ git clone https://github.com/attm2x/m2x-groovy
 ```
 
-E. Use the following command to launch the Groovy script:
+E. Open the Groovy script file you want to run. Replace the following parts(if exist) with correct values:
+
+   `<key>`: Your M2X API key
+   `<feed id>`: ID of feed to push
+   `<stream name>`: Name of stream to push
+   `<value to push>`: Value to push
+
+F. Use the following command to launch the Groovy script(suppose the script you want to run is `push_data.groovy`):
 
 ```
    $ cd m2x-groovy
