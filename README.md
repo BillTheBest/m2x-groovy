@@ -40,7 +40,7 @@ To run the example scripts, both Groovy and the JDK (Java Development Kit) must 
 
 There are two ways to run the example scripts:
 
-1. The examples were developeed with [IntelliJ IDEA](http://www.jetbrains.com/idea/), a full-featured Java/Groovy IDE. If you also use IntelliJ IDEA, you can launch the scripts right in the IDE. The steps for running those scripts in IntelliJ IDEA are listed below.
+1. The examples were developed with [IntelliJ IDEA](http://www.jetbrains.com/idea/), a full-featured Java/Groovy IDE. If you also use IntelliJ IDEA, you can launch the scripts right in the IDE. The steps for running those scripts in IntelliJ IDEA are listed below.
 
 2. If you use other editors, you can run the examples in your command-line environment. The steps in this case are also listed below.
 
