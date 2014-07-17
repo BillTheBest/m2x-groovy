@@ -80,7 +80,9 @@ F. Open the Groovy script file you want to run. Replace the following parts(if e
    * `<stream name>`: Name of stream to push
    * `<value to push>`: Value to push
 
-G. Right-click it and select `Run`. However, you might want to change the source to use the correct key, etc., first.
+G. Right-click it and select `Run`. 
+
+If you run into problems, please make sure to double check that you are using the correct correct key, Feed ID, and stream name as outlined in Step F above.
 
 How to Run Examples in the Command Line
 ===================================
@@ -120,7 +122,7 @@ F. Use the following command to launch the Groovy script(suppose the script you 
    $ groovy -cp <path to the generated jar file> src/main/groovy/com/att/m2x/client/examples/push_data.groovy
 ```
 
-   Remember to fill in the jar file path obtained in Step C. You might also want to adjust the script first to fill in the correct key, feed ID, stream name, etc.
+   Remember to fill in the jar file path obtained in Step C and ensure that you adjusted the script to fill in the correct key, feed ID, and stream name, as outlined in Step E above. 
 
 License
 ==========================
