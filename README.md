@@ -108,7 +108,12 @@ D. Launch IntelliJ, open the `m2x-groovy` project.
 
 E. Right click on `pom.xml` file, select `Maven`, `Reimport`.
 
-F. Open the Groovy script file you want to run. Replace the following variables with values from your M2X account (API Key + Feed ID) or based on the data you want to store (stream name + value):
+F. Open the Groovy script file you want to run as shown in the next screenshot:
+
+![Navigate Source]
+(screenshots/navigate-source.png)
+
+Replace the following variables with values from your M2X account (API Key + Feed ID) or based on the data you want to store (stream name + value):
 
    * `<key>`: Your M2X API key
    * `<feed id>`: ID of feed to push
