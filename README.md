@@ -49,9 +49,9 @@ In addition, [Maven](http://maven.apache.org/) must be installed. Maven is a Jav
 Configure Java SDK and Groovy SDK in IntelliJ IDEA
 ==================================================
 
-If this is the first time that you are using IntelliJ IDEA, you need to configure the Java SDK and/or Groovy SDK. Even though you have them already installed on your system, chances are IntelliJ IDEA cannot find them, you have to set them up.
+If this is the first time that you have used IntelliJ IDEA, you will need to configure the Java SDK and/or Groovy SDK. Even though you have already installed them on your system, it is like that IntelliJ IDEA cannot find them and that you'll have to set them up.
 
-In this case, please follow the following steps. Notice this is only needed if you want to develop Groovy using IntelliJ IDEA, command-line way of running scripts does not need these steps.
+In this case, please follow the steps below. Note that this is only required if you want to develop Groovy using IntelliJ IDEA. Running Groovy scripts using the command-line does not require following these steps.
 
 First, you need to setup the Java SDK.
 
@@ -62,7 +62,7 @@ First, you need to setup the Java SDK.
 ![Add Java SDK]
 (screenshots/1-add-java-sdk.png)
 
-3. Navigate to the folder where JDK is installed on your system. Depending on your system this might change. For example, on Mac OS X 10.9, the system-provided JDK can be found at `/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home`.
+3. Navigate to the folder where JDK is installed on your system. Depending on your Operating System this step might be slightly different. For example, on Mac OS X 10.9, the system-provided JDK can be found at `/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home`.
 
 4. Click `Apply` or `OK` to save the changes.
 
@@ -73,16 +73,16 @@ Then, you need to setup the Groovy SDK.
 ![Add Framework Support]
 (screenshots/2-add-framework-support.png)
 
-NOTE: if you didn't find this item in the menu, then chances are you already set the Groovy framework up.
+NOTE: If you can't find this item in the menu, then it is likely that you already setup the Groovy framework.
 
-2. In the dialog poped up, first tick the checkbox next to `Groovy` on the left, then select the Groovy library in the dropdown menu. If nothing is shown in the dropdown menu, you may want to add one first: click on `Create` button and navigate to the `libexec` folder in your Groovy installation path. On Mac OS X 10.9, you may refer to the following screenshot:
+2. In the dialog menu that pops up, first click the checkbox next to `Groovy` on the left, then select the Groovy library in the dropdown menu. If nothing is shown in the dropdown menu, you may want to add one first: click the `Create` button and navigate to the `libexec` folder in your Groovy installation path. On Mac OS X 10.9, you may refer to the following screenshot:
 
 ![Navigate Groovy]
 (screenshots/3-navigate-groovy.png)
 
 3. Click `OK` on all the dialogs to save changes.
 
-Now you've already setup the Java SDK and Groovy SDK, you are good to run the examples!
+Now that you've setup the Java SDK and Groovy SDK, you are ready to run the examples!
 
 How to Run Examples in IntelliJ IDEA
 ====================================
@@ -150,7 +150,7 @@ D. Clone the [m2x-groovy](https://github.com/attm2x/m2x-groovy) examples:
    $ git clone https://github.com/attm2x/m2x-groovy
 ```
 
-E. Open the Groovy script file you want to run. The source files can be located at `src/main/groovy/com/att/m2x/client/examples` folder. This is put this way to satisfy Java packet requirements
+E. Open the Groovy script file that you want to run. The source files can be located in the `src/main/groovy/com/att/m2x/client/examples` folder (in order to satisfy Java packet requirements).
 
 Replace the following variables with correct values from your M2X account (in the case of Key and Feed ID) and the data you want to store (stream name + value):
 
