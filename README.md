@@ -46,10 +46,12 @@ There are two ways to run the example scripts:
 
 In addition, [Maven](http://maven.apache.org/) must be installed. Maven is a Java project and dependency management tool. While Groovy scripts can run outside of the Maven environment, the M2X Java client library is organized using Maven. We will use Maven to fetch dependencies for the Groovy scripts. To install Maven, please refer to the official [Maven documentation](http://maven.apache.org/download.cgi#Installation).
 
-Configure Java SDKs in IntelliJ IDEA
-====================================
+Configure Java SDK and Groovy SDK in IntelliJ IDEA
+==================================================
 
-If this is the first time that you are using IntelliJ IDEA, you need to configure the Java SDK and Groovy SDK. Please follow the following steps. Notice this is only needed if you want to develop Groovy using IntelliJ IDEA, command-line way of running scripts does not need these steps.
+If this is the first time that you are using IntelliJ IDEA, you need to configure the Java SDK and/or Groovy SDK. Even though you have them already installed on your system, chances are IntelliJ IDEA cannot find them, you have to set them up.
+
+In this case, please follow the following steps. Notice this is only needed if you want to develop Groovy using IntelliJ IDEA, command-line way of running scripts does not need these steps.
 
 First, you need to setup the Java SDK.
 
