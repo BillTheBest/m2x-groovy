@@ -49,15 +49,15 @@ In addition, [Maven](http://maven.apache.org/) must be installed. Maven is a Jav
 Configure Java SDK and Groovy SDK in IntelliJ IDEA
 ==================================================
 
-If this is the first time that you have used IntelliJ IDEA, you will need to configure the Java SDK and/or Groovy SDK. Even though you have already installed them on your system, it is like that IntelliJ IDEA cannot find them and that you'll have to set them up.
+If this is the first time that you have used IntelliJ IDEA, you will need to configure IntelliJ IDEA to use the Java SDK and/or Groovy SDK installed on your system.  
 
-In this case, please follow the steps below. Note that this is only required if you want to develop Groovy using IntelliJ IDEA. Running Groovy scripts using the command-line does not require following these steps.
+Note that this is only required if you want to develop Groovy using IntelliJ IDEA. Running Groovy scripts using the command-line does not require following these steps.
 
 First, you need to setup the Java SDK.
 
 1. Click `File`, then select `Project Structure`.
 
-2. Click on the `+` sign, and select `SDK` as shown in the screenshot below:
+2. Click on the `+` sign, and select `JDK` as shown in the screenshot below:
 
 ![Add Java SDK]
 (screenshots/1-add-java-sdk.png)
