@@ -148,7 +148,9 @@ D. Clone the [m2x-groovy](https://github.com/attm2x/m2x-groovy) examples:
    $ git clone https://github.com/attm2x/m2x-groovy
 ```
 
-E. Open the Groovy script file you want to run. Replace the following variables with correct values from your M2X account (in the case of Key and Feed ID) and the data you want to store (stream name + value):
+E. Open the Groovy script file you want to run. The source files can be located at `src/main/groovy/com/att/m2x/client/examples` folder. This is put this way to satisfy Java packet requirements
+
+Replace the following variables with correct values from your M2X account (in the case of Key and Feed ID) and the data you want to store (stream name + value):
 
    * `<key>`: Your M2X API key
    * `<feed id>`: ID of feed to push
