@@ -46,6 +46,41 @@ There are two ways to run the example scripts:
 
 In addition, [Maven](http://maven.apache.org/) must be installed. Maven is a Java project and dependency management tool. While Groovy scripts can run outside of the Maven environment, the M2X Java client library is organized using Maven. We will use Maven to fetch dependencies for the Groovy scripts. To install Maven, please refer to the official [Maven documentation](http://maven.apache.org/download.cgi#Installation).
 
+Configure Java SDKs in IntelliJ IDEA
+====================================
+
+If this is the first time that you are using IntelliJ IDEA, you need to configure the Java SDK and Groovy SDK. Please follow the following steps. Notice this is only needed if you want to develop Groovy using IntelliJ IDEA, command-line way of running scripts does not need these steps.
+
+First, you need to setup the Java SDK.
+
+1. Click `File`, then select `Project Structure`.
+
+2. Click on the `+` sign, and select `SDK` as shown in the screenshot below:
+
+![Add Java SDK]
+(screenshots/1-add-java-sdk.png)
+
+3. Navigate to the folder where JDK is installed on your system. Depending on your system this might change. For example, on Mac OS X 10.9, the system-provided JDK can be found at `/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home`.
+
+4. Click `Apply` or `OK` to save the changes.
+
+Then, you need to setup the Groovy SDK.
+
+1. Right click on the project name, select `Add Framework Support...` as shown in the next screenshot:
+
+![Add Framework Support]
+(screenshots/2-add-framework-support.png)
+
+NOTE: if you didn't find this item in the menu, then chances are you already set the Groovy framework up.
+
+2. In the dialog poped up, first tick the checkbox next to `Groovy` on the left, then select the Groovy library in the dropdown menu. If nothing is shown in the dropdown menu, you may want to add one first: click on `Create` button and navigate to the `libexec` folder in your Groovy installation path. On Mac OS X 10.9, you may refer to the following screenshot:
+
+![Navigate Groovy]
+(screenshots/3-navigate-groovy.png)
+
+3. Click `OK` on all the dialogs to save changes.
+
+Now you've already setup the Java SDK and Groovy SDK, you are good to run the examples!
 
 How to Run Examples in IntelliJ IDEA
 ====================================
