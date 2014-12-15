@@ -12,13 +12,13 @@ Getting Started
 ==========================
 1. Signup for an [M2X Account](https://m2x.att.com/signup).
 2. Obtain your _Master Key_ from the Master Keys tab of your [Account Settings](https://m2x.att.com/account) screen.
-2. Create your first [Data Source Blueprint](https://m2x.att.com/blueprints) and copy its _Feed ID_.
+2. Create your first [Data Source Blueprint](https://m2x.att.com/blueprints) and copy its _Device ID_.
 3. Review the [M2X API Documentation](https://m2x.att.com/developer/documentation/overview).
 5. Review the M2X [Java client documentation](https://github.com/attm2x/m2x-java/blob/master/README.md).
 
 ### Setting up your first M2X data source
 
-In order to be able to use these Groovy script examples, you will need an [AT&T M2X](https://m2x.att.com/) API key and a Data Source Feed ID. If you don't have an API key, create an account and, once registered and with your account activated, create a new [Data Source Blueprint](https://m2x.att.com/blueprints), and set aside the `Feed ID` and `API Key` values for later use. 
+In order to be able to use these Groovy script examples, you will need an [AT&T M2X](https://m2x.att.com/) API key and a Data Source Device ID. If you don't have an API key, create an account and, once registered and with your account activated, create a new [Data Source Blueprint](https://m2x.att.com/blueprints), and set aside the `Device ID` and `API Key` values for later use. 
 
 Leveraging the M2X Java library
 =======================
@@ -115,16 +115,16 @@ F. Open the Groovy script file you want to run as shown in the next screenshot:
 ![Navigate Source]
 (screenshots/navigate-source.png)
 
-Replace the following variables with values from your M2X account (API Key + Feed ID) or based on the data you want to store (stream name + value):
+Replace the following variables with values from your M2X account (API Key + Device ID) or based on the data you want to store (stream name + value):
 
    * `<key>`: Your M2X API key
-   * `<feed id>`: ID of feed to push
+   * `<device id>`: ID of device to push
    * `<stream name>`: Name of stream to push
    * `<value to push>`: Value to push
 
 G. Right-click it and select `Run`. 
 
-If you run into problems, please make sure to double check that you are using the correct correct key and Feed ID as outlined in Step F above.
+If you run into problems, please make sure to double check that you are using the correct correct key and Device ID as outlined in Step F above.
 
 How to Run Examples in the Command Line
 ===================================
@@ -152,10 +152,10 @@ D. Clone the [m2x-groovy](https://github.com/attm2x/m2x-groovy) examples:
 
 E. Open the Groovy script file that you want to run. The source files can be located in the `src/main/groovy/com/att/m2x/client/examples` folder (in order to satisfy Java packet requirements).
 
-Replace the following variables with correct values from your M2X account (in the case of Key and Feed ID) and the data you want to store (stream name + value):
+Replace the following variables with correct values from your M2X account (in the case of Key and Device ID) and the data you want to store (stream name + value):
 
    * `<key>`: Your M2X API key
-   * `<feed id>`: ID of feed to push
+   * `<device id>`: ID of device to push
    * `<stream name>`: Name of stream to push
    * `<value to push>`: Value to push
 
@@ -166,7 +166,7 @@ F. Use the following command to launch the Groovy script (suppose the script you
    $ groovy -cp <path to the generated jar file> src/main/groovy/com/att/m2x/client/examples/push_data.groovy
 ```
 
-   Remember to fill in the jar file path obtained in Step C and ensure that you adjusted the script to fill in the correct Key and Feed ID as outlined in Step E above. 
+   Remember to fill in the jar file path obtained in Step C and ensure that you adjusted the script to fill in the correct Key and Device ID as outlined in Step E above. 
 
 License
 ==========================
