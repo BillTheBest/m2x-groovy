@@ -7,13 +7,17 @@ package com.att.m2x.client.examples
  */
 
 import com.att.m2x.client.M2XClient
-import com.att.m2x.client.api.stream.Value
-import com.att.m2x.client.api.stream.ValueListResponse
+import com.att.m2x.client.M2XResponse
+import org.json.JSONArray
+import org.json.JSONObject
+
+import java.text.DateFormat
+import java.text.SimpleDateFormat
 
 // Your M2X key
 String key = "<key>"
-// The feed to push data
-String feedId = "<feed id>"
+// The device to push data
+String deviceId = "<feed id>"
 // The steam to push data
 String streamName = "<stream name>"
 // The actual data
@@ -23,25 +27,38 @@ M2XClient client = new M2XClient(key)
 
 // This method is used to print values in a stream, we use it to
 // show the differences after pushing data
-def print_response(client, feedId, streamName) {
-    ValueListResponse response = client.feed(feedId).streams().values(streamName)
-    println "Values for feed: " + feedId + " stream: " + streamName
+def print_response(client, deviceId, streamName) {
+    M2XResponse response = client.device(deviceId).stream(streamName).values()
+    println "Values for feed: " + deviceId + " stream: " + streamName
     println "===================="
-    for (Value value : response.values) {
-        println "Value: " + value.value + " At: " + value.at
+    JSONArray values = response.json().getJSONArray("values");
+    for ( i = 0; i < values.length(); i++ ) {
+        JSONObject value = values.getJSONObject(i);
+        println "Value: " + value.get("value") + " Timestamp: " + value.getString("timestamp")
     }
     println "===================="
     println()
 }
 
+def format_timestamp(date) {
+    TimeZone tz = TimeZone.getTimeZone("UTC")
+    DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'")
+    df.setTimeZone(tz)
+    return df.format(date)
+}
+
 println "Before pushing data:"
 // Print values before pushing the data
-print_response(client, feedId, streamName)
+print_response(client, deviceId, streamName)
 
 // Push data to the stream, please refer to the Java library documentation
 // for details
-client.feed(feedId).streams().addValues(streamName, new Value(pushValue, new Date()))
+jsonValue = M2XClient.jsonSerialize(new HashMap<String, Object>(){{
+    put("value", pushValue);
+    put("timestamp", format_timestamp(new Date()));
+}})
+putResponse = client.device(deviceId).stream(streamName).updateValue(jsonValue)
 
 println "After pushing data:"
 // Print values after pushing the data
-print_response(client, feedId, streamName)
+print_response(client, deviceId, streamName)
