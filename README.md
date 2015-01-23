@@ -5,7 +5,7 @@ The AT&T M2X API provides all the needed operations to connect your device to AT
 
 This repository provides an easy to use set of [Groovy script examples](https://github.com/attm2x/m2x-groovy/tree/master/src/main/groovy/com/att/m2x/client/examples) that enable you to use [Groovy](http://groovy.codehaus.org) script with the [M2X Java client library](https://github.com/attm2x/m2x-java).
 
-In order to learn more about the APIs used in the Groovy Script examples, please consult the M2X [Java client documentation](https://github.com/attm2x/m2x-java/blob/master/README.md). Refer to the M2X [Glossary of Terms](https://m2x.att.com/developer/documentation/glossary) to understand the nomenclature used throughout this documentation.
+In order to learn more about the APIs used in the Groovy Script examples, please consult the M2X [Java client documentation](https://github.com/attm2x/m2x-java/blob/master/README.md). Refer to the M2X [Glossary of Terms](https://m2x.att.com/developer/documentation/v2/glossary) to understand the nomenclature used throughout this documentation.
 
 
 
@@ -14,7 +14,7 @@ Getting Started
 1. Signup for an [M2X Account](https://m2x.att.com/signup).
 2. Obtain your _Master Key_ from the Master Keys tab of your [Account Settings](https://m2x.att.com/account) screen.
 2. Create your first [Device](https://m2x.att.com/devices) and copy its _Device ID_.
-3. Review the [M2X API Documentation](https://m2x.att.com/developer/documentation/overview).
+3. Review the [M2X API Documentation](https://m2x.att.com/developer/documentation/v2/overview).
 5. Review the M2X [Java client documentation](https://github.com/attm2x/m2x-java/blob/master/README.md).
 
 ### Setting up your first M2X Device
@@ -43,7 +43,7 @@ There are two ways to run the example scripts:
 
 1. The examples were developed with [IntelliJ IDEA](http://www.jetbrains.com/idea/), a full-featured Java/Groovy IDE. If you also use IntelliJ IDEA, you can launch the scripts right in the IDE. The steps for running those scripts in IntelliJ IDEA are listed below.
 
-2. If you use other editors, you can run the examples in your command-line environment. The steps in this case are also listed below.
+2. If you use another editor, you can run the examples in your command-line environment using the steps listed below.
 
 In addition, [Maven](http://maven.apache.org/) must be installed. Maven is a Java project and dependency management tool. While Groovy scripts can run outside of the Maven environment, the M2X Java client library is organized using Maven. We will use Maven to fetch dependencies for the Groovy scripts. To install Maven, please refer to the official [Maven documentation](http://maven.apache.org/download.cgi#Installation).
 
